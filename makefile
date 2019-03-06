@@ -14,9 +14,9 @@ avx512.out: test.cpp
 .PHONY: run clean
 
 run:
-	perf stat ./a.out
-	perf stat ./avx2.out
-	perf stat ./avx512.out
+	perf stat ./a.out 2> xmm.txt
+	perf stat ./avx2.out 2> ymm.txt
+	perf stat ./avx512.out 2> zmm.txt
 
 clean:
 	rm -f a.out avx2.out avx512.out
