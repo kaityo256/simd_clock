@@ -1,15 +1,17 @@
 all: a.out avx2.out avx512.out
 CC=icpc
+CC=g++
 CPPFLAGS=-O3 -xHOST
+CPPFLAGS=-O3
 
 a.out: test.cpp
 	$(CC) $(CPPFLAGS) test.cpp -o $@
 
 avx2.out: test.cpp
-	$(CC) $(CPPFLAGS) test.cpp -DAVX2 -o $@
+	$(CC) $(CPPFLAGS) -mavx2 test.cpp -DAVX2 -o $@
 
 avx512.out: test.cpp
-	$(CC) $(CPPFLAGS) test.cpp -DAVX512 -o $@
+	$(CC) $(CPPFLAGS) test.cpp -mavx512f -DAVX512 -o $@
 
 .PHONY: run clean
 

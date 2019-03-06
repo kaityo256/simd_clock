@@ -1,14 +1,14 @@
 
  Performance counter stats for './avx512.out':
 
-         24.455105      task-clock:u (msec)       #    0.955 CPUs utilized          
+         23.491867      task-clock:u (msec)       #    0.959 CPUs utilized          
                  0      context-switches:u        #    0.000 K/sec                  
                  0      cpu-migrations:u          #    0.000 K/sec                  
-               732      page-faults:u             #    0.030 M/sec                  
-        49,425,360      cycles:u                  #    2.021 GHz                    
-        76,907,519      instructions:u            #    1.56  insn per cycle         
-        12,807,820      branches:u                #  523.728 M/sec                  
-            11,488      branch-misses:u           #    0.09% of all branches        
+               796      page-faults:u             #    0.034 M/sec                  
+        46,722,198      cycles:u                  #    1.989 GHz                    
+        78,004,254      instructions:u            #    1.67  insn per cycle         
+        12,997,031      branches:u                #  553.257 M/sec                  
+            17,064      branch-misses:u           #    0.13% of all branches        
 
-       0.025611498 seconds time elapsed
+       0.024488312 seconds time elapsed
 
