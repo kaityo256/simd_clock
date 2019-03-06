@@ -175,6 +175,10 @@ $ perf stat ./avx512.out > /dev/null
 
 You can see that the CPU frequency decreases as the width of the SIMD register increases.
 
+## Reference
+
+* [Frequency Behavior - Intel (@wikichip)](https://en.wikichip.org/wiki/intel/frequency_behavior)
+
 ## License
 
 The source codes in this repository are licensed under [the MIT License](https://opensource.org/licenses/MIT).
