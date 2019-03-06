@@ -1,16 +1,16 @@
 
  Performance counter stats for './avx2.out':
 
-         45.435008 task-clock                #    0.950 CPUs utilized          
-                11 context-switches          #    0.000 M/sec                  
+         46.727693 task-clock                #    0.966 CPUs utilized          
+                 9 context-switches          #    0.000 M/sec                  
                  1 CPU-migrations            #    0.000 M/sec                  
-               705 page-faults               #    0.016 M/sec                  
-       113,687,775 cycles                    #    2.502 GHz                    
+               697 page-faults               #    0.015 M/sec                  
+       116,928,370 cycles                    #    2.502 GHz                    
      <not counted> stalled-cycles-frontend 
      <not counted> stalled-cycles-backend  
-       154,714,170 instructions              #    1.36  insns per cycle        
-        25,907,381 branches                  #  570.207 M/sec                  
-            23,859 branch-misses             #    0.09% of all branches        
+       179,479,778 instructions              #    1.53  insns per cycle        
+        25,854,681 branches                  #  553.305 M/sec                  
+            22,254 branch-misses             #    0.09% of all branches        
 
-       0.047807222 seconds time elapsed
+       0.048377394 seconds time elapsed
 
